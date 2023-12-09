@@ -1,9 +1,12 @@
 * {
-    background: radial-gradient(circle at 24.1% 68.8%, rgb(50, 50, 50) 0%, rgb(0, 0, 0) 99.4%);  
     padding: 0;
     margin: 0;
     color: white;
     font-family: Pitch Sans, sans-serif;
+}
+
+body {
+    background: radial-gradient(circle at 24.1% 68.8%, rgb(50, 50, 50) 0%, rgb(0, 0, 0) 99.4%);   
 }
 
 /* General Website Structure START */
@@ -80,3 +83,46 @@
 }
 
 /* General Website Structure END */
+
+/* Navigation Bar Section START */
+.nav-logo img {
+    margin-left: 100%;
+    height: 4em; 
+    border-radius: 10%;
+}
+
+.nav-links {
+    margin-left: 40%;
+    margin-right: 5%;
+}
+
+.nav-links a {
+    text-decoration: none;
+    margin: 0 15px;
+    color: #fff;
+}
+
+.nav-button {
+    display: inline-block;
+    padding: 0.5em 1.4em;
+    margin: 0 0.1em 0.1em 0;
+    border: 0.16em solid rgb(255, 255, 255);
+    border-radius: 2em;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    color: #ffffff;
+    text-shadow: 0 0.04em 0.04em rgba(255, 255, 255, 0.253);
+    text-align: center;
+    transition: all 0.2s;
+}
+      
+.nav-button:hover {
+    color: #ffdb00;
+    background-color: transparent;
+    border: 1px solid #ffdb00;
+    box-shadow: none;
+}
+
+/* Navigation Bar Section END */
