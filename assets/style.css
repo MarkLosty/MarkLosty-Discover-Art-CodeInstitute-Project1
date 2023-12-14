@@ -205,3 +205,89 @@ body {
     line-height: 1,5;
 }
 /* Site Description Section END */
+
+
+/* Scrolling Text A Section START */
+/* Apply styles to the container */
+.scrolling-text-section {
+    overflow: hidden; 
+    white-space: nowrap;  
+    font-size: 18px; 
+    font-weight: bold; 
+    letter-spacing: 2px;
+    margin-bottom: 2%;
+}
+
+/* Scrolling Text A Section END */
+
+/* Featured Art Section START */
+.featured-art-section-images {
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+}
+
+.fa-column-1 {
+    display: flex;
+    flex-direction: column;
+    margin: 0 20px; /* Adjust margin between columns */
+    align-items: center;
+}
+
+.fa-column-2 {
+    display: flex;
+    flex-direction: column;
+    margin: 0 10px; /* Adjust margin between columns */
+}
+
+.fa-column-1 img {
+    width: 100%; /* Make images fill the container width */
+    height: auto;
+    margin-bottom: 40px;
+    margin-top: 25px;
+}
+
+.fa-column-2 img {
+    width: 100%; /* Make images fill the container width */
+    height: auto;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+.image-with-text {
+    position: relative;
+    margin-bottom: 20px; 
+}
+
+.image-with-text img {
+    width: 100%;
+    height: auto;
+    opacity: 0.90;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+.image-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    /* background-color: rgba(0, 0, 0, 0.7); */
+    padding: 10px;
+    box-sizing: border-box;
+    transition: 0.3s ease;
+}
+
+.image-text h2 {
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-size: 1.5em; 
+}
+
+.image-text p {
+    margin-top: 0;
+    font-size: 0.8em; 
+}
+
+
+
+/* Featured Art Section END */
