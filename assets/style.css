@@ -195,3 +195,13 @@ body {
 
 
 /* Button Section END */
+
+
+
+/* Site Description Section START */
+.p-text {
+    text-align: center;
+    font-size: 1.8em;
+    line-height: 1,5;
+}
+/* Site Description Section END */
