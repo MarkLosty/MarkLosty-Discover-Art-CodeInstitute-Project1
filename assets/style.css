@@ -289,5 +289,124 @@ body {
 }
 
 
-
 /* Featured Art Section END */
+
+
+/* Big Featured Art Section START */
+
+.big-featured-art-section .art-box {
+    width: 550px;
+    transition: transform 0.3s;
+    position: relative;
+    margin-bottom: 10%; /* Adds space between the art boxes */
+    text-align: center;
+}
+
+.big-featured-art-section .art-box:hover {
+    transform: scale(1.25);
+}
+
+.big-featured-art-section .art-box img {
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+    transition: opacity 0.3s, transform 0.3s; 
+}
+
+.big-featured-art-section .art-box:hover img {
+    opacity: 0.9;
+    transform: translate(-25px, -25px); 
+}
+
+.big-featured-art-section .art-box .info {
+    display: none;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.big-featured-art-section .art-box:hover .info {
+    display: block;
+}
+
+.learn-more-btn {
+    display: inline-block;
+    padding: 0.5em 1.7em;
+    margin: 0 0.1em 0.1em 0;
+    border: 0.16em solid rgb(255, 255, 255);
+    border-radius: 2em;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-weight: 300;
+    color: #ffffff;
+    text-shadow: 0 0.04em 0.04em rgba(255, 255, 255, 0.253);
+    text-align: center;
+    transition: all 0.2s;
+}
+
+.learn-more-btn:hover {
+    color: #ffffff;
+    border: 1px solid #ffdb00;
+}
+
+.info {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s, transform 0.3s;
+}
+
+.art-box:hover .info {
+    opacity: 1;
+    transform: translateX(-54.5%) translateY(-0%);
+}
+
+.info p {
+    margin-bottom: 1%;
+}
+
+/* Big Featured Art Section END */
+
+/* Footer Section START */
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content horizontally */
+}
+
+.footer-heading {
+    font-size: 8em; /* Adjust the size of the footer heading */
+    margin-bottom: 2%; /* Add spacing between heading and icons */
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.social-icons img {
+    width: 50px; /* Adjust the size of social media icons */
+    margin: 5px; /* Adjust the spacing between icons */
+}
+
+/* Hover effect for Twitter icon */
+.social-icon img:hover {
+    border: 1px solid #ffdb00;
+}
+
+.footer-text {
+    font-size: 1em; /* Adjust the size of the footer text */
+    color: #fff; /* Adjust the color of the text */
+}
+
+.footer-text p {
+    margin-bottom: 1%;
+}
+
+/* Footer Section END */
+
+/* Index.html END */
