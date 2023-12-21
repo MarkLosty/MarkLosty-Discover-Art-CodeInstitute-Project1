@@ -561,6 +561,56 @@ body {
 
 /* classical-art.html END */
 
+/* art-highlights.html START */
+
+.AH-heading {
+    color: #fff; /* Text color */
+    font-size: 1.2em; /* Adjust font size */
+    text-align: center; /* Center the text */
+    padding: 10px; /* Add padding for readability */
+    border-radius: 5px; /* Rounded corners */
+    text-shadow: 1px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    margin-bottom: 3%;
+}
+  
+/* Create four equal columns that sits next to each other */
+.column {
+    flex: 20%;
+    max-width: 35%;
+    padding: 0 4px;
+}
+  
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+figcaption {
+    text-align: center;
+    font-size: 1.2em;
+    font-style: italic;
+    margin-top: 10px;
+    color: #fff; /* Adjust the color to complement your design */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+    font-family: 'Arial', sans-serif; /* Change font-family if needed */
+    opacity: 0.8; /* Adjust opacity for subtlety */
+    transition: opacity 0.3s ease; /* Optional: for hover effects */
+}
+
+figcaption:hover {
+    opacity: 1; /* Optional: Increase opacity on hover */
+}
+
+/* art-highlights.html END */
+
+
 
 /* Media Queries for Responsiveness Index.html START */
 
