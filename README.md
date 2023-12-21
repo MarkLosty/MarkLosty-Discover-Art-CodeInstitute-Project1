@@ -61,18 +61,18 @@ Visual Impact: The "Featured Art" section highlights captivating images, offerin
 Artist Showcases: This section offers insights into the lives and works of influential artists, presenting biographies, notable artworks, and their significance in the art world.
 
 Artist Diversity: Discover Art celebrates a variety of artists across different eras, genres, and movements, enabling users to explore the breadth and depth of artistic talent.
-![Alt text](image link)
+![Featured-Art](https://i.imgur.com/Q23xg1x.jpeg)
 
 
 **Art Highlights Page**
 Curated Collections: The "Art Highlights" page compiles select artworks, focusing on thematic collections or noteworthy pieces, guiding users through specific art genres or themes.
 
 Immersive Experience: Users can delve deeper into specific art movements or genres, fostering an immersive journey into the intricacies and stories behind each highlighted piece.
-![Alt text](image link)
+![Art-Highlights-Page-Top](https://i.imgur.com/8NwhjFB.jpeg))
 
 **Footer**
 A footer with links to the Socials for Discover Art
-![Alt text](image link)
+![Footer](https://i.imgur.com/6IsP57p.png)
 
 
 
