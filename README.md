@@ -72,7 +72,7 @@ Immersive Experience: Users can delve deeper into specific art movements or genr
 
 **Footer**
 A footer with links to the Socials for Discover Art
-![Footer](https://i.imgur.com/6IsP57p.png)
+![Footer](https://github.com/MarkLosty/MarkLosty-Discover-Art-CodeInstitute-Project1/assets/76440845/ee9d2bf9-cd49-43ce-aff2-13491d2f6ea4)
 
 
 
