@@ -1046,3 +1046,165 @@ figcaption:hover {
 }
 
 /* Media Queries for Responsiveness Classical-art.html END */
+
+
+/* Media Queries for Responsiveness art-hightlights.html START */
+
+
+/* For screens 320px */
+@media screen and (max-width: 320px) {
+    .nav-section {
+       margin-left: 4%;
+    }
+
+    .nav-logo {
+        width: 1%;
+    }
+
+    .nav-links {
+        display: none;
+        visibility: hidden;
+    }
+
+    .AH-heading {
+        font-size: 14px;
+    }
+    
+    .column img {
+        max-width: 100%;
+        height: auto;
+        margin-left: 70%;
+    }
+
+    .column figcaption {
+        margin-left: 100% !important;
+        display: block;
+        text-align: center;
+        font-size: 12px;
+        max-width: 100%;
+    }
+
+    .column:nth-child(n+2):nth-child(-n+4) {
+        display: none;
+    }
+
+    .footer {
+        font-size: 0.55em;
+    }
+}
+
+
+@media screen and (min-width: 600px) and (max-width: 768px) {
+    .nav-section {
+       margin-left: 32%;
+    }
+
+    .nav-logo {
+        width: 3%;
+    }
+
+    .AH-heading {
+        font-size: 16px;
+    }
+    
+    .column img {
+        max-width: 100%;
+        height: auto;
+        margin-left: 50%;
+    }
+
+    .column figcaption {
+        margin-left: 50% !important;
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .column:nth-child(n+2):nth-child(-n+4) {
+        display: block;
+    }
+
+    .footer {
+        margin-top: 10% !important;
+        font-size: 0.75em;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    .nav-section {
+       margin-left: 8%;
+    }
+
+    .nav-logo {
+        width: 5%;
+    }
+
+    .nav-links {
+        display: block;
+        visibility: visible;
+    }
+
+    .AH-heading {
+        font-size: 18px;
+    }
+    
+    .column img {
+        max-width: 100%;
+        height: auto;
+        margin-left: 30%;
+    }
+
+    .column figcaption {
+        margin-left: 30% !important;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .column:nth-child(n+2):nth-child(-n+4) {
+        display: block;
+    }
+
+    .footer {
+        font-size: 0.85em;
+    }
+}
+
+@media screen and (min-width: 993px) {
+    .nav-section {
+       margin-left: 10%;
+    }
+
+    .nav-logo {
+        width: 7%;
+    }
+
+    .nav-links {
+        display: block;
+        visibility: visible;
+    }
+
+    .AH-heading {
+        font-size: 20px;
+    }
+    
+    .column img {
+        max-width: 100%;
+        height: auto;
+        margin-left: 20%;
+    }
+
+    .column figcaption {
+        margin-left: 20% !important;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .column:nth-child(n+2):nth-child(-n+4) {
+        display: block;
+    }
+
+    .footer {
+        font-size: 1em;
+    }
+}
+
+/* Media Queries for Responsiveness art-hightlights.html END */
