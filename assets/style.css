@@ -55,6 +55,16 @@ body {
     justify-content: center;
     width: 80%;
     height: 5vh;
+    animation: marquee 20s linear infinite;
+}
+
+@keyframes marquee {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
 }
 
 .featured-art-section {
