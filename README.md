@@ -1,7 +1,7 @@
 # Discover Art
 A website for to Discover Classical & Modern Art.
 
-![Alt text](image link)
+![AmIReponsive](https://i.imgur.com/BxKuYTo.png)
 
 
 # The Purpose with this Project
@@ -107,7 +107,7 @@ Responsive Design Testing: Verify that the site looks and functions well on vari
 W3C Markup Validation: Use W3C's Markup Validation Service to check the HTML code for errors or warnings. This ensures adherence to HTML standards and better compatibility across browsers.
 Semantic Structure: Validate that the HTML follows a proper semantic structure, using appropriate tags for content.
 
-![Alt text](image link)
+![(HTMLValidation)](https://i.imgur.com/2QkWYKv.png)
 
 **Inspect Element**
 Debugging and Modification: Use browser developer tools (like Chrome's Inspect Element) to identify layout issues, inspect CSS styles, and debug JavaScript errors.
