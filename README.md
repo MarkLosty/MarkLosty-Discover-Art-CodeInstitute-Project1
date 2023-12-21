@@ -68,7 +68,7 @@ Artist Diversity: Discover Art celebrates a variety of artists across different 
 Curated Collections: The "Art Highlights" page compiles select artworks, focusing on thematic collections or noteworthy pieces, guiding users through specific art genres or themes.
 
 Immersive Experience: Users can delve deeper into specific art movements or genres, fostering an immersive journey into the intricacies and stories behind each highlighted piece.
-![Art-Highlights-Page-Top](https://i.imgur.com/8NwhjFB.jpeg))
+![Art-Highlights-Page-Top](https://i.imgur.com/8NwhjFB.jpeg)
 
 **Footer**
 A footer with links to the Socials for Discover Art
@@ -96,8 +96,6 @@ Emulates the feeling of visiting an art gallery.
 Provides an interactive and engaging browsing experience.
 Consider combining elements from these approaches or tailoring them further to align with your vision for the website. Each design approach offers a unique way to showcase and appreciate art.
 
-![Alt text](image link)
-
 
 # Testing 
 
@@ -114,11 +112,6 @@ Semantic Structure: Validate that the HTML follows a proper semantic structure, 
 **Inspect Element**
 Debugging and Modification: Use browser developer tools (like Chrome's Inspect Element) to identify layout issues, inspect CSS styles, and debug JavaScript errors.
 Live Testing: Modify CSS styles or HTML structure live within the browser to test changes before implementing them in the codebase.
-
-**Automated Testing Tools**
-Lighthouse: Run Lighthouse audits to check website performance, accessibility, SEO, and best practices.
-
-![Alt text](image link)
 
 
 # Development and Deployment
