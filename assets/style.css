@@ -927,3 +927,63 @@ body {
 }
 
 /* Media Queries for Responsiveness Index.html END */
+
+
+/* Media Queries for Responsiveness Classical-art.html START */
+
+/* For screens 320px */
+@media screen and (max-width: 320px) {
+    .nav-section {
+       margin-left: 4%;
+    }
+
+    .nav-logo {
+        width: 1%;
+    }
+
+    .nav-links {
+        display: none;
+        visibility: hidden;
+    }
+
+    .classical-art-hero-section {
+        display: none;
+    }
+
+    .artists-section {
+        display: none;
+    }
+
+    .artist-description-section-left {
+        max-width: 55%;
+        max-height: auto;
+    }
+
+    .artist-description-section-left p {
+        display: none;
+    }
+
+    .artist-description-section-left h2 {
+        font-size: 0.55em;
+    }
+
+    .artist-description-section-left small {
+        font-size: 0.45em;
+    }
+
+    .artist-description-section-right {
+        display: none;
+    }
+
+    .footer {
+        margin-right: 60%;
+        margin-top: 155% !important;
+        font-size: 0.55em;
+    }
+
+    .footer img {
+        max-width: 50%;
+    }
+}
+
+/* Media Queries for Responsiveness Classical-art.html END */
