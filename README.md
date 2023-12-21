@@ -55,7 +55,7 @@ Optimized Content: The content is curated to engage users, balancing visual appe
 Curated Artworks: Discover Art showcases a carefully curated collection of both classical and modern art, providing users with a diverse array of artistic styles and periods.
 
 Visual Impact: The "Featured Art" section highlights captivating images, offering a glimpse into iconic paintings, sculptures, and artistic masterpieces from renowned artists.
-![Featured-Art-Gifs](C:\Users\Mark PC\Documents\ShareX\Screenshots\2023-12\opera_aBjyR3F3jl.png)
+![Featured-Art-Gifs](https://i.imgur.com/h7kLarJ.jpeg)
 
 **Featured Artists**
 Artist Showcases: This section offers insights into the lives and works of influential artists, presenting biographies, notable artworks, and their significance in the art world.
