@@ -211,6 +211,7 @@ body {
 /* Scrolling Text A Section START */
 /* Apply styles to the container */
 .scrolling-text-section {
+    margin-top: 2%;
     overflow: hidden; 
     white-space: nowrap;  
     font-size: 18px; 
@@ -369,6 +370,10 @@ body {
     margin-bottom: 1%;
 }
 
+.mobile-text {
+    display: none;
+}
+
 /* Big Featured Art Section END */
 
 /* Footer Section START */
@@ -434,6 +439,7 @@ body {
 }
 
 .hero-text {
+    margin-top: 10%;
     margin-right: 8%;
     margin-bottom: 12%;
     max-width: 45%; /* Adjust text width as needed */
@@ -463,23 +469,47 @@ body {
     margin-bottom: 20%;
 }
 
-.artists-section img {
+.image-wrapper {
+    position: relative;
+    display: inline-block;
+}
+
+.image-wrapper img {
     max-width: 390px;
     max-height: 300px;
     padding: 0.5%;
     border-radius: 3%;
 }
 
+.hover-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    text-align: center;
+    padding: 5px;
+    opacity: 0;
+    transition: opacity 0.5s;
+    pointer-events: none;
+}
+
+.image-wrapper:hover .hover-text {
+    opacity: 1;
+}
+
+
 /* Artists Section */
 .artist-description-section-left {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 20% 0 0;
+    margin: 0 30% 0 0;
     height: 50vh;
-    /* Other necessary styles */
     margin-bottom: 5%;
     margin-left: 5%;
+    margin-top: 15%;
 }
 
 .artist-description-section-left .artist-description {
@@ -489,7 +519,7 @@ body {
 
 .artist-description-section-left .artist-description-image img {
     max-width: 90%; /* Adjust image width */
-    height: auto; /* Maintain aspect ratio */
+    height: 80%; /* Maintain aspect ratio */
     border-radius: 15px;
 }
 
@@ -501,11 +531,12 @@ body {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin: 0 0 0 20%;
+    margin: 0 0 0 30%;
     height: 50vh;
     /* Other necessary styles */
     margin-bottom: 5%;
     margin-right: 5%;
+    margin-top: 15%;
 }
 
 .artist-description-section-right .artist-description {
@@ -515,7 +546,7 @@ body {
 
 .artist-description-section-right .artist-description-image img {
     max-width: 90%; /* Adjust image width */
-    height: auto; /* Maintain aspect ratio */
+    height: 80%; /* Maintain aspect ratio */
     border-radius: 15px;
 }
 
@@ -529,3 +560,370 @@ body {
 
 
 /* classical-art.html END */
+
+
+/* Media Queries for Responsiveness Index.html START */
+
+/* For screens 320px */
+@media screen and (max-width: 320px) {
+    .nav-section {
+       margin-left: 4%;
+    }
+
+    .nav-logo {
+        width: 1%;
+    }
+
+    .nav-links {
+        display: none;
+        visibility: hidden;
+    }
+
+    .hero-section {
+        background-size: cover;
+        height: 200px;
+    }
+
+    .hero-section .hero-gif:not(:first-of-type) {
+        display: none;
+    }
+
+    .text-over-gif {
+        font-size: 1em;
+    }
+
+    .slogan-section {
+        font-size: 0.35em;
+    }
+
+    .button-section {
+        display: none;
+  
+    }
+
+    .site-desc-section {
+        display: none;
+    }
+
+    .scrolling-text-section {
+        display: none;
+    }
+
+    .featured-art-section {
+        display: none;
+    }
+
+    .big-featured-art-section {
+        margin-top: -160% !important;
+    }
+
+    .big-featured-art-section img:nth-child(1) {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 50%;
+        height: auto;
+        display: block;
+    }
+
+    .big-featured-art-section img:nth-child(2) {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 50%; 
+        height: auto;
+        display: block;
+    }
+
+    .big-featured-art-section p {
+        font-size: 0.35em;
+        align-content: center;
+    }
+
+    .big-featured-art-section br {
+        font-size: 0.35em;
+        align-content: center;
+    }
+
+    .mobile-text {
+        display: block; /* Display the text for mobile */
+        font-size: 13px !important;
+    }
+  
+    .footer {
+        margin-top: -100% !important;
+        font-size: 0.55em;
+    }
+}
+
+/* For screens 321px - 767px */
+@media screen and (min-width: 321px) and (max-width: 767px) {
+    .nav-section {
+       margin-left: 4%;
+    }
+
+    .nav-logo {
+        width: 1%;
+    }
+
+    .nav-links {
+        display: none;
+        visibility: hidden;
+    }
+
+    .hero-section {
+        background-size: cover;
+        height: 200px;
+    }
+
+    .hero-section .hero-gif:not(:first-of-type) {
+        display: none;
+    }
+
+    .text-over-gif {
+        font-size: 1em;
+    }
+
+    .slogan-section {
+        font-size: 0.35em;
+    }
+
+    .button-section {
+        display: none;
+  
+    }
+
+    .site-desc-section {
+        display: none;
+    }
+
+    .scrolling-text-section {
+        display: none;
+    }
+
+    .featured-art-section {
+        display: none;
+    }
+
+    .big-featured-art-section {
+        margin-top: -120% !important;
+    }
+
+    .big-featured-art-section img:nth-child(1) {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 50%;
+        height: auto;
+        display: block;
+    }
+
+    .big-featured-art-section img:nth-child(2) {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 50%; 
+        height: auto;
+        display: block;
+    }
+
+    .big-featured-art-section p {
+        font-size: 0.35em;
+        align-content: center;
+    }
+
+    .big-featured-art-section br {
+        font-size: 0.35em;
+        align-content: center;
+    }
+
+    .mobile-text {
+        display: block; /* Display the text for mobile */
+        font-size: 14px !important;
+    }
+  
+    .footer {
+        margin-top: -80% !important;
+        font-size: 0.55em;
+    }
+}
+
+/* For screens 768px - 768px */
+@media screen and (min-width: 768px) and (max-width: 768px) {
+    .nav-section {
+       margin-left: 28%;
+    }
+
+    .nav-logo {
+        width: 1%;
+    }
+
+    .nav-links {
+        display: none;
+        visibility: hidden;
+    }
+
+    .hero-section {
+        background-size: cover;
+        height: 200px;
+    }
+
+    .hero-section .hero-gif:not(:first-of-type) {
+        display: none;
+    }
+
+    .text-over-gif {
+        font-size: 1em;
+    }
+
+    .slogan-section {
+        font-size: 0.35em;
+    }
+
+    .button-section {
+        display: none;
+  
+    }
+
+    .site-desc-section {
+        display: none;
+    }
+
+    .scrolling-text-section {
+        display: none;
+    }
+
+    .featured-art-section {
+        display: none;
+    }
+
+    .big-featured-art-section {
+        margin-top: -60% !important;
+    }
+
+    .big-featured-art-section img:nth-child(1) {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 50%;
+        height: auto;
+        display: block;
+    }
+
+    .big-featured-art-section img:nth-child(2) {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 50%; 
+        height: auto;
+        display: block;
+    }
+
+    .big-featured-art-section p {
+        font-size: 0.35em;
+        align-content: center;
+    }
+
+    .big-featured-art-section br {
+        font-size: 0.35em;
+        align-content: center;
+    }
+
+    .mobile-text {
+        display: block; /* Display the text for mobile */
+        margin-top: 1%;
+        font-size: 20px !important;
+    }
+  
+    .footer {
+        margin-top: -30% !important;
+        font-size: 0.55em;
+    }
+}
+
+/* For screens 1024px - 1024px */
+@media screen and (min-width: 1024px) and (max-width: 1024px) {
+    .nav-section {
+       margin-left: 34%;
+    }
+
+    .nav-logo {
+        width: 1%;
+    }
+
+    .nav-links {
+        display: none;
+        visibility: hidden;
+    }
+
+    .hero-section {
+        background-size: cover;
+        height: 200px;
+    }
+
+    .hero-section .hero-gif:not(:first-of-type) {
+        display: none;
+    }
+
+    .text-over-gif {
+        font-size: 1em;
+    }
+
+    .slogan-section {
+        font-size: 0.35em;
+    }
+
+    .button-section {
+        display: none;
+  
+    }
+
+    .site-desc-section {
+        display: none;
+    }
+
+    .scrolling-text-section {
+        display: none;
+    }
+
+    .featured-art-section {
+        display: none;
+    }
+
+    .big-featured-art-section {
+        margin-top: -40% !important;
+    }
+
+    .big-featured-art-section img:nth-child(1) {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 50%;
+        height: auto;
+        display: block;
+    }
+
+    .big-featured-art-section img:nth-child(2) {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 50%; 
+        height: auto;
+        display: block;
+    }
+
+    .big-featured-art-section p {
+        font-size: 0.35em;
+        align-content: center;
+    }
+
+    .big-featured-art-section br {
+        font-size: 0.35em;
+        align-content: center;
+    }
+
+    .mobile-text {
+        display: block; /* Display the text for mobile */
+        margin-top: 1%;
+        font-size: 20px !important;
+    }
+  
+    .footer {
+        margin-top: -15% !important;
+        font-size: 0.55em;
+    }
+}
+
+/* Media Queries for Responsiveness Index.html END */
